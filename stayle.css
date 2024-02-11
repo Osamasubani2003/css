@@ -1,8 +1,5 @@
 body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8efef;
+    size: 80%;
 }
 
 .container{
@@ -16,19 +13,19 @@ body{
     background-color: aquamarine;
     display:inline-block;
     float: left;
-    
     width: 300px;
 }
-#right{
+.right{
     
     display:inline-block;
     float: right;
+    width: 600px;
+    background-color: cadetblue;
 }
 
 img {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin: 0 auto 20px;
+    height: 100px;
+    width: 100px;
+    border: 3px,solid,black;
   }
