@@ -1,31 +1,70 @@
 body{
-    size: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f1f0f0;
 }
-
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm;
+} 
 .container{
     display: inline-block;
-            margin: 40px;
-            padding: 40px;
-
-
+    background-color: #fff;
+    padding: 0px,40px;
+    border-radius: 15px;
 }
 .left{
-    background-color: aquamarine;
-    display:inline-block;
+    background-color: rgb(148, 182, 226);
     float: left;
-    width: 300px;
+    width: 250px;
+    height: 1123px;   
 }
 .right{
-    
-    display:inline-block;
     float: right;
-    width: 600px;
-    background-color: cadetblue;
+    width: 543px;
+    height: 1123px;
+    background-color: rgb(209, 225, 247);
 }
-
 img {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    border: 3px,solid,black;
-  }
+    height: 150px;
+    width: 150px;
+    padding:25px ;
+    margin-left: 25px;
+}
+.left .section{
+    margin-bottom: 70px;
+}
+.section{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.section h2{
+    border-bottom: 2px solid #333;
+}
+.section h1{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 50px;
+    color:  rgb(44, 116, 211);
+}
+.section h3{
+    margin: 0;
+
+}
+.section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size:large;
+}
+.section ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size:large;
+}
